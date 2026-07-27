@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" width="720" height="480">
+  <defs>
+    <marker id="ar3" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#6b5b95"/>
+    </marker>
+    <marker id="ar3b" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#8b7ab8"/>
+    </marker>
+  </defs>
+  <text x="360" y="30" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#4a3f6e">Function Calling：结构化取代文本协议</text>
+
+  <!-- lifelines -->
+  <g font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">
+    <rect x="80" y="55" width="130" height="38" rx="8" fill="#ece7f5"/>
+    <text x="145" y="79" text-anchor="middle" fill="#4a3f6e">你的代码</text>
+    <rect x="310" y="55" width="130" height="38" rx="8" fill="#4a3f6e"/>
+    <text x="375" y="79" text-anchor="middle" fill="#ffffff">LLM API</text>
+    <rect x="540" y="55" width="130" height="38" rx="8" fill="#ece7f5"/>
+    <text x="605" y="79" text-anchor="middle" fill="#4a3f6e">外部工具</text>
+  </g>
+  <line x1="145" y1="93" x2="145" y2="440" stroke="#b8aed4" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="375" y1="93" x2="375" y2="440" stroke="#b8aed4" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="605" y1="93" x2="605" y2="440" stroke="#b8aed4" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- step 1 -->
+  <line x1="145" y1="130" x2="370" y2="130" stroke="#6b5b95" stroke-width="1.8" marker-end="url(#ar3)"/>
+  <text x="258" y="122" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#36304a">messages + tools (JSON Schema)</text>
+
+  <!-- step 2 -->
+  <line x1="375" y1="185" x2="150" y2="185" stroke="#8b7ab8" stroke-width="1.8" stroke-dasharray="5,3" marker-end="url(#ar3b)"/>
+  <text x="262" y="177" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#36304a">tool_calls: search("特斯拉 股价")</text>
+
+  <!-- step 3 -->
+  <line x1="145" y1="240" x2="600" y2="240" stroke="#6b5b95" stroke-width="1.8" marker-end="url(#ar3)"/>
+  <text x="372" y="232" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#36304a">执行 search("特斯拉 股价")</text>
+
+  <!-- step 4 -->
+  <line x1="605" y1="295" x2="150" y2="295" stroke="#8b7ab8" stroke-width="1.8" stroke-dasharray="5,3" marker-end="url(#ar3b)"/>
+  <text x="377" y="287" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#36304a">$248.50（真实数据）</text>
+
+  <!-- step 5 -->
+  <line x1="145" y1="350" x2="370" y2="350" stroke="#6b5b95" stroke-width="1.8" marker-end="url(#ar3)"/>
+  <text x="258" y="342" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#36304a">结果以 tool 角色塞回 messages</text>
+
+  <!-- step 6 -->
+  <line x1="375" y1="405" x2="150" y2="405" stroke="#8b7ab8" stroke-width="1.8" stroke-dasharray="5,3" marker-end="url(#ar3b)"/>
+  <text x="262" y="397" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#36304a">生成最终回答（自然语言）</text>
+
+  <rect x="90" y="448" width="540" height="26" rx="13" fill="#ece7f5"/>
+  <text x="360" y="465" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#4a3f6e">全程结构化 JSON，出错率比文本协议低一个数量级</text>
+</svg>
