@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 640" width="720" height="640">
+  <defs>
+    <marker id="ar7" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#6b5b95"/>
+    </marker>
+  </defs>
+  <text x="360" y="30" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#4a3f6e">一次完整调用：4 次 LLM + 3 次工具</text>
+  <text x="360" y="52" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11.5" fill="#7a7390">「看看今天 A 股科技板块，写个简报发到部门群」</text>
+
+  <!-- steps -->
+  <g font-family="Inter,Arial,sans-serif">
+    <!-- step 0 -->
+    <rect x="40" y="72" width="640" height="56" rx="10" fill="#ece7f5" stroke="#b8aed4" stroke-width="1"/>
+    <rect x="52" y="84" width="64" height="32" rx="6" fill="#4a3f6e"/>
+    <text x="84" y="105" text-anchor="middle" font-size="11" fill="#fff" font-weight="700">L5</text>
+    <text x="130" y="98" font-size="12" font-weight="600" fill="#4a3f6e">第 0 步：组装系统 prompt</text>
+    <text x="130" y="117" font-size="10.5" fill="#36304a">角色设定 + 工具 Schema + 记忆（200 字偏好）+ ReAct 指令</text>
+
+    <line x1="360" y1="128" x2="360" y2="140" stroke="#6b5b95" stroke-width="1.5" marker-end="url(#ar7)"/>
+
+    <!-- step 1 -->
+    <rect x="40" y="146" width="640" height="56" rx="10" fill="#ffffff" stroke="#6b5b95" stroke-width="1.3"/>
+    <rect x="52" y="158" width="64" height="32" rx="6" fill="#6b5b95"/>
+    <text x="84" y="179" text-anchor="middle" font-size="11" fill="#fff" font-weight="700">LLM ①</text>
+    <text x="130" y="172" font-size="12" font-weight="600" fill="#4a3f6e">输出 tool_call：stock_query</text>
+    <text x="130" y="191" font-size="10.5" fill="#36304a">参数 {market: "A股", sector: "科技"} · 选对工具靠 L1 推理能力</text>
+
+    <line x1="360" y1="202" x2="360" y2="214" stroke="#6b5b95" stroke-width="1.5" marker-end="url(#ar7)"/>
+
+    <!-- step 2 -->
+    <rect x="40" y="220" width="640" height="56" rx="10" fill="#ffffff" stroke="#8b7ab8" stroke-width="1.3"/>
+    <rect x="52" y="232" width="64" height="32" rx="6" fill="#8b7ab8"/>
+    <text x="84" y="253" text-anchor="middle" font-size="11" fill="#fff" font-weight="700">L4</text>
+    <text x="130" y="246" font-size="12" font-weight="600" fill="#4a3f6e">调股票 API，回填结果</text>
+    <text x="130" y="265" font-size="10.5" fill="#36304a">科技板块涨 2.3%，成交 1200 亿 · tool 角色追加进 messages</text>
+
+    <line x1="360" y1="276" x2="360" y2="288" stroke="#6b5b95" stroke-width="1.5" marker-end="url(#ar7)"/>
+
+    <!-- step 3 -->
+    <rect x="40" y="294" width="640" height="56" rx="10" fill="#ffffff" stroke="#6b5b95" stroke-width="1.3"/>
+    <rect x="52" y="306" width="64" height="32" rx="6" fill="#6b5b95"/>
+    <text x="84" y="327" text-anchor="middle" font-size="11" fill="#fff" font-weight="700">LLM ②</text>
+    <text x="130" y="320" font-size="12" font-weight="600" fill="#4a3f6e">输出 tool_call：write_doc</text>
+    <text x="130" y="339" font-size="10.5" fill="#36304a">用 L3 记忆里的 200 字偏好组织简报 · 没记忆就会写 800 字</text>
+
+    <line x1="360" y1="350" x2="360" y2="362" stroke="#6b5b95" stroke-width="1.5" marker-end="url(#ar7)"/>
+
+    <!-- step 4 -->
+    <rect x="40" y="368" width="640" height="56" rx="10" fill="#ffffff" stroke="#8b7ab8" stroke-width="1.3"/>
+    <rect x="52" y="380" width="64" height="32" rx="6" fill="#8b7ab8"/>
+    <text x="84" y="401" text-anchor="middle" font-size="11" fill="#fff" font-weight="700">L4</text>
+    <text x="130" y="394" font-size="12" font-weight="600" fill="#4a3f6e">文档生成，结果回填</text>
+    <text x="130" y="413" font-size="10.5" fill="#36304a">简报成稿返回 · messages 继续变长</text>
+
+    <line x1="360" y1="424" x2="360" y2="436" stroke="#6b5b95" stroke-width="1.5" marker-end="url(#ar7)"/>
+
+    <!-- step 5 -->
+    <rect x="40" y="442" width="640" height="56" rx="10" fill="#ffffff" stroke="#6b5b95" stroke-width="1.3"/>
+    <rect x="52" y="454" width="64" height="32" rx="6" fill="#6b5b95"/>
+    <text x="84" y="475" text-anchor="middle" font-size="11" fill="#fff" font-weight="700">LLM ③</text>
+    <text x="130" y="468" font-size="12" font-weight="600" fill="#4a3f6e">输出 tool_call：send_message</text>
+    <text x="130" y="487" font-size="10.5" fill="#36304a">判断「该发群了」· 目标是部门群</text>
+
+    <line x1="360" y1="498" x2="360" y2="510" stroke="#6b5b95" stroke-width="1.5" marker-end="url(#ar7)"/>
+
+    <!-- step 6 -->
+    <rect x="40" y="516" width="640" height="56" rx="10" fill="#ffffff" stroke="#8b7ab8" stroke-width="1.3"/>
+    <rect x="52" y="528" width="64" height="32" rx="6" fill="#8b7ab8"/>
+    <text x="84" y="549" text-anchor="middle" font-size="11" fill="#fff" font-weight="700">L4</text>
+    <text x="130" y="542" font-size="12" font-weight="600" fill="#4a3f6e">消息发出，确认回填</text>
+
+    <line x1="360" y1="572" x2="360" y2="584" stroke="#6b5b95" stroke-width="1.5" marker-end="url(#ar7)"/>
+
+    <!-- step 7 -->
+    <rect x="40" y="590" width="640" height="42" rx="10" fill="#4a3f6e"/>
+    <text x="130" y="615" font-size="12" font-weight="700" fill="#fff">LLM ④ 输出最终回答，循环结束 · 全程 L6 记录 trace</text>
+  </g>
+</svg>
