@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" width="720" height="220">
+  <defs>
+    <marker id="arrow6" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4a7c9b"/>
+    </marker>
+  </defs>
+
+  <text x="360" y="30" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#3d6a8a">链式 Agent：流水线分工</text>
+  <text x="360" y="50" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#7a8ba0">每个 Agent 只管一个环节，上游产出是下游输入</text>
+
+  <!-- Input -->
+  <g>
+    <rect x="20" y="100" width="80" height="60" rx="10" fill="#dbe7f0" stroke="#4a7c9b" stroke-width="1.5"/>
+    <text x="60" y="125" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#3d6a8a" font-weight="700">输入</text>
+    <text x="60" y="145" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="10" fill="#7a8ba0">原始需求</text>
+  </g>
+
+  <!-- Agent A -->
+  <g>
+    <rect x="150" y="100" width="120" height="60" rx="10" fill="#3d6a8a"/>
+    <text x="210" y="125" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#ffffff" font-weight="700">Agent A</text>
+    <text x="210" y="145" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#dbe7f0">分析阶段</text>
+  </g>
+
+  <!-- Agent B -->
+  <g>
+    <rect x="320" y="100" width="120" height="60" rx="10" fill="#4a7c9b"/>
+    <text x="380" y="125" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#ffffff" font-weight="700">Agent B</text>
+    <text x="380" y="145" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#dbe7f0">处理阶段</text>
+  </g>
+
+  <!-- Agent C -->
+  <g>
+    <rect x="490" y="100" width="120" height="60" rx="10" fill="#5d8eab"/>
+    <text x="550" y="125" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#ffffff" font-weight="700">Agent C</text>
+    <text x="550" y="145" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#dbe7f0">输出阶段</text>
+  </g>
+
+  <!-- Output -->
+  <g>
+    <rect x="650" y="100" width="60" height="60" rx="10" fill="#dbe7f0" stroke="#4a7c9b" stroke-width="1.5"/>
+    <text x="680" y="125" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" fill="#3d6a8a" font-weight="700">输出</text>
+    <text x="680" y="145" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="9" fill="#7a8ba0">成品</text>
+  </g>
+
+  <!-- Arrows -->
+  <line x1="100" y1="130" x2="150" y2="130" stroke="#4a7c9b" stroke-width="2" marker-end="url(#arrow6)"/>
+  <line x1="270" y1="130" x2="320" y2="130" stroke="#4a7c9b" stroke-width="2" marker-end="url(#arrow6)"/>
+  <line x1="440" y1="130" x2="490" y2="130" stroke="#4a7c9b" stroke-width="2" marker-end="url(#arrow6)"/>
+  <line x1="610" y1="130" x2="650" y2="130" stroke="#4a7c9b" stroke-width="2" marker-end="url(#arrow6)"/>
+
+  <text x="360" y="190" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#3d6a8a" font-style="italic">适合：内容生产流水线（选题→调研→写→审）、数据处理管道</text>
+</svg>
