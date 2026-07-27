@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" width="720" height="280">
+  <defs>
+    <marker id="arrow5" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4a7c9b"/>
+    </marker>
+  </defs>
+
+  <text x="360" y="30" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#3d6a8a">单 Agent 拓扑</text>
+  <text x="360" y="50" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#7a8ba0">一个 Agent 配一组工具，独立完成所有事</text>
+
+  <!-- 用户 -->
+  <g>
+    <rect x="40" y="120" width="100" height="50" rx="10" fill="#dbe7f0" stroke="#4a7c9b" stroke-width="1.5"/>
+    <text x="90" y="142" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#3d6a8a" font-weight="700">用户</text>
+    <text x="90" y="158" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="10" fill="#7a8ba0">发起任务</text>
+  </g>
+
+  <!-- Agent -->
+  <g>
+    <rect x="280" y="110" width="160" height="70" rx="10" fill="#3d6a8a"/>
+    <text x="360" y="140" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="15" fill="#ffffff" font-weight="700">Agent</text>
+    <text x="360" y="158" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="10" fill="#dbe7f0">独立推理 + 决策</text>
+    <text x="360" y="172" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="10" fill="#dbe7f0">最朴素的形态</text>
+  </g>
+
+  <!-- 结果 -->
+  <g>
+    <rect x="580" y="120" width="100" height="50" rx="10" fill="#dbe7f0" stroke="#4a7c9b" stroke-width="1.5"/>
+    <text x="630" y="142" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#3d6a8a" font-weight="700">结果</text>
+    <text x="630" y="158" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="10" fill="#7a8ba0">最终产出</text>
+  </g>
+
+  <!-- 用户 → Agent -->
+  <line x1="140" y1="145" x2="280" y2="145" stroke="#4a7c9b" stroke-width="2" marker-end="url(#arrow5)"/>
+
+  <!-- Agent → 结果 -->
+  <line x1="440" y1="145" x2="580" y2="145" stroke="#4a7c9b" stroke-width="2" marker-end="url(#arrow5)"/>
+
+  <!-- Tools below -->
+  <g>
+    <rect x="200" y="220" width="80" height="35" rx="6" fill="#ffffff" stroke="#4a7c9b" stroke-width="1.2"/>
+    <text x="240" y="242" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#3a4150">Tool 1</text>
+
+    <rect x="320" y="220" width="80" height="35" rx="6" fill="#ffffff" stroke="#4a7c9b" stroke-width="1.2"/>
+    <text x="360" y="242" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#3a4150">Tool 2</text>
+
+    <rect x="440" y="220" width="80" height="35" rx="6" fill="#ffffff" stroke="#4a7c9b" stroke-width="1.2"/>
+    <text x="480" y="242" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#3a4150">Tool 3</text>
+  </g>
+
+  <!-- Agent → Tools -->
+  <line x1="320" y1="180" x2="240" y2="218" stroke="#4a7c9b" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <line x1="360" y1="180" x2="360" y2="218" stroke="#4a7c9b" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <line x1="400" y1="180" x2="480" y2="218" stroke="#4a7c9b" stroke-width="1.2" stroke-dasharray="3,2"/>
+
+  <text x="90" y="265" font-family="Inter,Arial,sans-serif" font-size="10" fill="#7a8ba0" font-style="italic">适合：个人助手、客服、代码补全</text>
+</svg>
