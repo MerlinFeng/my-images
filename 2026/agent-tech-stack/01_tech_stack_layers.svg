@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" width="720" height="560">
+  <text x="360" y="32" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#4a3f6e">AI Agent 技术栈：六层架构</text>
+
+  <!-- L6 -->
+  <g>
+    <rect x="60" y="55" width="600" height="66" rx="12" fill="#ece7f5" stroke="#b8aed4" stroke-width="1.2"/>
+    <text x="90" y="82" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#4a3f6e">L6 观测与评估层</text>
+    <text x="90" y="104" font-family="Inter,Arial,sans-serif" font-size="11.5" fill="#36304a">LangSmith / Langfuse / Ragas · 调用链追踪、质量评估</text>
+    <text x="610" y="95" font-family="Inter,Arial,sans-serif" font-size="11" fill="#7a7390" text-anchor="end">它为什么这样决策</text>
+  </g>
+  <!-- L5 -->
+  <g>
+    <rect x="60" y="131" width="600" height="66" rx="12" fill="#8b7ab8" opacity="0.25" stroke="#8b7ab8" stroke-width="1.2"/>
+    <text x="90" y="158" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#4a3f6e">L5 编排与运行层</text>
+    <text x="90" y="180" font-family="Inter,Arial,sans-serif" font-size="11.5" fill="#36304a">LangGraph / CrewAI / AutoGen · 多步骤、多 Agent 状态控制</text>
+    <text x="610" y="171" font-family="Inter,Arial,sans-serif" font-size="11" fill="#7a7390" text-anchor="end">Agent 怎么干活</text>
+  </g>
+  <!-- L4 -->
+  <g>
+    <rect x="60" y="207" width="600" height="66" rx="12" fill="#8b7ab8" opacity="0.4" stroke="#8b7ab8" stroke-width="1.2"/>
+    <text x="90" y="234" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#4a3f6e">L4 工具层</text>
+    <text x="90" y="256" font-family="Inter,Arial,sans-serif" font-size="11.5" fill="#36304a">Function Calling / MCP / 浏览器自动化 / 代码执行</text>
+    <text x="610" y="247" font-family="Inter,Arial,sans-serif" font-size="11" fill="#7a7390" text-anchor="end">Agent 的手脚</text>
+  </g>
+  <!-- L3 -->
+  <g>
+    <rect x="60" y="283" width="600" height="66" rx="12" fill="#8b7ab8" opacity="0.55" stroke="#8b7ab8" stroke-width="1.2"/>
+    <text x="90" y="310" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#ffffff">L3 记忆层</text>
+    <text x="90" y="332" font-family="Inter,Arial,sans-serif" font-size="11.5" fill="#ffffff">向量库 / Redis / Zep / MemGPT · 短期拼 prompt，长期靠检索</text>
+    <text x="610" y="323" font-family="Inter,Arial,sans-serif" font-size="11" fill="#e6e1f2" text-anchor="end">解决健忘问题</text>
+  </g>
+  <!-- L2 -->
+  <g>
+    <rect x="60" y="359" width="600" height="66" rx="12" fill="#6b5b95" opacity="0.85" stroke="#4a3f6e" stroke-width="1.2"/>
+    <text x="90" y="386" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#ffffff">L2 框架层</text>
+    <text x="90" y="408" font-family="Inter,Arial,sans-serif" font-size="11.5" fill="#ffffff">LangChain / LlamaIndex / Dify / Coze · 把模型包装成 Agent</text>
+    <text x="610" y="399" font-family="Inter,Arial,sans-serif" font-size="11" fill="#e6e1f2" text-anchor="end">只是胶水，不是全家桶</text>
+  </g>
+  <!-- L1 -->
+  <g>
+    <rect x="60" y="435" width="600" height="66" rx="12" fill="#4a3f6e" stroke="#4a3f6e" stroke-width="1.2"/>
+    <text x="90" y="462" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#ffffff">L1 模型层</text>
+    <text x="90" y="484" font-family="Inter,Arial,sans-serif" font-size="11.5" fill="#ffffff">GPT-4o / Claude / Qwen / DeepSeek / GLM · 一切的地基</text>
+    <text x="610" y="475" font-family="Inter,Arial,sans-serif" font-size="11" fill="#e6e1f2" text-anchor="end">推理 / 上下文 / 工具调用</text>
+  </g>
+
+  <!-- side arrows -->
+  <defs>
+    <marker id="up" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,8 L4,0 L8,8" fill="none" stroke="#6b5b95" stroke-width="1.5"/>
+    </marker>
+  </defs>
+  <line x1="35" y1="480" x2="35" y2="80" stroke="#6b5b95" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#up)"/>
+  <text x="22" y="285" font-family="Inter,Arial,sans-serif" font-size="11" fill="#6b5b95" transform="rotate(-90,22,285)" text-anchor="middle">越往上越贴近工程</text>
+
+  <text x="360" y="535" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" fill="#7a7390">选了一个框架 ≠ 搞定所有层 · 每一层都要单独做技术决策</text>
+</svg>
