@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 780" width="960" height="780" data-generator="fireworks-tech-graph" data-schema-version="1" data-text-metrics="heuristic-v1" data-style-id="1" data-visual-theme="Flat Icon" data-diagram-type="architecture" data-motion-scene="" data-semantic-profile="generic" data-semantic-valid="true" data-quality-profile="showcase" data-max-bends-per-edge="2" data-max-total-bends="8" data-max-route-stretch="1.35" data-max-bridged-crossings="0" data-min-node-gap="40.0" data-min-container-gutter="20.0" data-min-label-clearance="4.0" data-min-segment-length="16.0">
+  <defs>
+    <marker id="arrowA" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7c3aed"/>
+    </marker>
+    <marker id="arrowB" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#10b981"/>
+    </marker>
+    <marker id="arrowC" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2563eb"/>
+    </marker>
+    <marker id="arrowE" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#f97316"/>
+    </marker>
+    <marker id="arrowF" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7c3aed"/>
+    </marker>
+    <marker id="arrowG" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ef4444"/>
+    </marker>
+    <marker id="arrowH" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6b7280"/>
+    </marker>
+    <filter id="shadowSoft" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+    <filter id="shadowGlass" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#020617" flood-opacity="0.28"/>
+    </filter>
+    <style>
+    text { font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Microsoft YaHei', 'Microsoft JhengHei', 'SimHei', sans-serif; }
+    .title { font-size: 30px; font-weight: 700; fill: #111827; }
+    .subtitle { font-size: 14px; font-weight: 500; fill: #6b7280; }
+    .section { font-size: 13px; font-weight: 700; fill: #2563eb; letter-spacing: 1.4px; }
+    .section-sub { font-size: 12px; font-weight: 500; fill: #94a3b8; }
+    .node-title { font-weight: 700; fill: #111827; }
+    .node-sub { font-size: 12px; font-weight: 500; fill: #6b7280; }
+    .node-type { font-size: 12px; font-weight: 700; fill: #9ca3af; letter-spacing: 0.08em; }
+    .arrow-label { font-size: 12px; font-weight: 600; fill: #6b7280; }
+    .legend { font-size: 12px; font-weight: 500; fill: #6b7280; }
+    .footnote { font-size: 12px; font-weight: 500; fill: #94a3b8; }
+    .metric-label { font-size: 8.5px; font-weight: 700; fill: #94a3b8; text-transform: uppercase; }
+    .metric-value { font-size: 9.5px; font-weight: 700; fill: #111827; }
+    </style>
+  </defs>
+  <rect data-graph-role="background" width="960.0" height="780.0" fill="#ffffff"/>
+  <text x="480.0" y="56" text-anchor="middle" class="title">一次「帮我退款」背后的四层配合</text>
+  <text x="480.0" y="82" text-anchor="middle" class="subtitle">四层各司其职，缺一不可</text>
+  <path id="u2fc" data-graph-role="edge" data-edge-id="u2fc" data-source="user" data-target="fc" data-edge-kind="flow" data-topic-id="" data-flow="control" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="0" data-route-stretch="1.0" data-bridges="" d="M 480,156 L 480,216" fill="none" stroke="#7c3aed" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+  <path id="fc2mcp" data-graph-role="edge" data-edge-id="fc2mcp" data-source="fc" data-target="mcp" data-edge-kind="flow" data-topic-id="" data-flow="data" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="0" data-route-stretch="1.0" data-bridges="" d="M 480,292 L 480,352" fill="none" stroke="#f97316" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowE)"/>
+  <path id="mcp2skill" data-graph-role="edge" data-edge-id="mcp2skill" data-source="mcp" data-target="skill" data-edge-kind="flow" data-topic-id="" data-flow="data" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="0" data-route-stretch="1.0" data-bridges="" d="M 480,428 L 480,488" fill="none" stroke="#f97316" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowE)"/>
+  <path id="skill2a2a" data-graph-role="edge" data-edge-id="skill2a2a" data-source="skill" data-target="a2a" data-edge-kind="flow" data-topic-id="" data-flow="control" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="0" data-route-stretch="1.0" data-bridges="" d="M 480,564 L 480,624" fill="none" stroke="#7c3aed" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+  <g id="node-user" data-graph-role="node" data-node-id="user" data-semantic-role="speech" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="300,96,660,156">
+  <path d="M 310.0 96.0 L 650.0 96.0 Q 660.0 96.0 660.0 106.0 L 660.0 146.0 Q 660.0 156.0 650.0 156.0 L 326.0 156.0 L 312.0 174.0 L 316.0 156.0 L 310.0 156.0 Q 300.0 156.0 300.0 146.0 L 300.0 106.0 Q 300.0 96.0 310.0 96.0 Z" fill="#fae9ee" stroke="#c13a63" stroke-width="2.0"/>
+  <text x="480.0" y="126.0" text-anchor="middle" class="node-title" font-size="18.0">用户说「帮我退款」</text>
+  </g>
+  <g id="node-fc" data-graph-role="node" data-node-id="fc" data-semantic-role="double_rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="260,216,700,292">
+  <rect x="260.0" y="216.0" width="440.0" height="76.0" rx="10.0" fill="#fdeaf0" stroke="#7d1f3e" stroke-width="2.0"/>
+  <rect x="266.0" y="222.0" width="428.0" height="64.0" rx="7.0" fill="none" stroke="#7d1f3e" stroke-width="1.2" opacity="0.65"/>
+  <text x="480.0" y="254.0" text-anchor="middle" class="node-title" font-size="18.0">Function Calling</text>
+  <text x="480.0" y="276.0" text-anchor="middle" class="node-sub">模型输出结构化调用意图：要调 create_refund，参数…</text>
+  </g>
+  <g id="node-mcp" data-graph-role="node" data-node-id="mcp" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="260,352,700,428">
+  <rect x="260.0" y="352.0" width="440.0" height="76.0" rx="10.0" fill="#fce7ef" stroke="#c13a63" stroke-width="1.8"/>
+  <text x="480.0" y="390.0" text-anchor="middle" class="node-title" font-size="18.0">MCP</text>
+  <text x="480.0" y="412.0" text-anchor="middle" class="node-sub">连上订单系统 + 退款接口，工具定义标准化喂给模型</text>
+  </g>
+  <g id="node-skill" data-graph-role="node" data-node-id="skill" data-semantic-role="note" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="260,488,700,564">
+  <rect x="260.0" y="488.0" width="440.0" height="76.0" rx="10.0" fill="#fff7ed" stroke="#c08a3a" stroke-width="2.0"/>
+  <text x="480.0" y="526.0" text-anchor="middle" class="node-title" font-size="18.0">Skill</text>
+  <text x="480.0" y="548.0" text-anchor="middle" class="node-sub">公司退款流程和话术规范，按 SKILL.md 执行</text>
+  </g>
+  <g id="node-a2a" data-graph-role="node" data-node-id="a2a" data-semantic-role="hexagon" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="260,624,700,700">
+  <path d="M 282.0 624.0 L 678.0 624.0 L 700.0 662.0 L 678.0 700.0 L 282.0 700.0 L 260.0 662.0 Z" fill="#eff6ff" stroke="#3b5bdb" stroke-width="2.0"/>
+  <text x="480.0" y="662.0" text-anchor="middle" class="node-title" font-size="18.0">A2A</text>
+  <text x="480.0" y="684.0" text-anchor="middle" class="node-sub">涉及财务审批，委派任务给财务 Agent</text>
+  </g>
+  <g id="u2fc-label" data-graph-role="label" data-owner="u2fc" data-graph-bounds="439,172,477,192">
+  <rect x="439.0" y="172.0" width="38.0" height="20" rx="6" fill="#ffffff" opacity="0.94"/>
+  <text x="458.0" y="186.0" text-anchor="middle" class="arrow-label">举手</text>
+  </g>
+  <g id="fc2mcp-label" data-graph-role="label" data-owner="fc2mcp" data-graph-bounds="439,308,477,328">
+  <rect x="439.0" y="308.0" width="38.0" height="20" rx="6" fill="#ffffff" opacity="0.94"/>
+  <text x="458.0" y="322.0" text-anchor="middle" class="arrow-label">连接</text>
+  </g>
+  <g id="mcp2skill-label" data-graph-role="label" data-owner="mcp2skill" data-graph-bounds="427,444,477,464">
+  <rect x="427.0" y="444.0" width="50.0" height="20" rx="6" fill="#ffffff" opacity="0.94"/>
+  <text x="452.0" y="458.0" text-anchor="middle" class="arrow-label">怎么做</text>
+  </g>
+  <g id="skill2a2a-label" data-graph-role="label" data-owner="skill2a2a" data-graph-bounds="439,580,477,600">
+  <rect x="439.0" y="580.0" width="38.0" height="20" rx="6" fill="#ffffff" opacity="0.94"/>
+  <text x="458.0" y="594.0" text-anchor="middle" class="arrow-label">委派</text>
+  </g>
+  <g id="legend" data-graph-role="legend">
+    <rect id="legend-zone" data-graph-role="reserved" data-reserved-kind="legend" x="208" y="724" width="265.2" height="46" rx="10" fill="none" stroke="none"/>
+    <line data-graph-role="decoration" x1="218.0" y1="738.0" x2="248.0" y2="738.0" stroke="#7c3aed" stroke-width="2.4" marker-end="url(#arrowA)"/>
+    <text data-graph-role="decoration" x="258.0" y="742.0" class="legend">意图 / 委派</text>
+    <line data-graph-role="decoration" x1="349.6" y1="738.0" x2="379.6" y2="738.0" stroke="#f97316" stroke-width="2.4" marker-end="url(#arrowE)"/>
+    <text data-graph-role="decoration" x="389.6" y="742.0" class="legend">连接 / 知识</text>
+  </g>
+  <g id="footer" data-graph-role="reserved" data-graph-bounds="480,754,823,770">
+  <text x="480.0" y="766.0" class="footnote">Style 1 · Flat Icon · FC → MCP → Skill → A2A 四层配合</text>
+  </g>
+</svg>
