@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 752" width="960" height="752" data-generator="fireworks-tech-graph" data-schema-version="1" data-text-metrics="heuristic-v1" data-style-id="1" data-visual-theme="Flat Icon" data-diagram-type="architecture" data-motion-scene="" data-semantic-profile="generic" data-semantic-valid="true" data-quality-profile="showcase" data-max-bends-per-edge="2" data-max-total-bends="8" data-max-route-stretch="1.35" data-max-bridged-crossings="0" data-min-node-gap="40.0" data-min-container-gutter="20.0" data-min-label-clearance="4.0" data-min-segment-length="16.0">
+  <defs>
+    <marker id="arrowA" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7c3aed"/>
+    </marker>
+    <marker id="arrowB" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#10b981"/>
+    </marker>
+    <marker id="arrowC" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2563eb"/>
+    </marker>
+    <marker id="arrowE" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#f97316"/>
+    </marker>
+    <marker id="arrowF" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7c3aed"/>
+    </marker>
+    <marker id="arrowG" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ef4444"/>
+    </marker>
+    <marker id="arrowH" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6b7280"/>
+    </marker>
+    <filter id="shadowSoft" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+    <filter id="shadowGlass" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#020617" flood-opacity="0.28"/>
+    </filter>
+    <style>
+    text { font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Microsoft YaHei', 'Microsoft JhengHei', 'SimHei', sans-serif; }
+    .title { font-size: 30px; font-weight: 700; fill: #111827; }
+    .subtitle { font-size: 14px; font-weight: 500; fill: #6b7280; }
+    .section { font-size: 13px; font-weight: 700; fill: #2563eb; letter-spacing: 1.4px; }
+    .section-sub { font-size: 12px; font-weight: 500; fill: #94a3b8; }
+    .node-title { font-weight: 700; fill: #111827; }
+    .node-sub { font-size: 12px; font-weight: 500; fill: #6b7280; }
+    .node-type { font-size: 12px; font-weight: 700; fill: #9ca3af; letter-spacing: 0.08em; }
+    .arrow-label { font-size: 12px; font-weight: 600; fill: #6b7280; }
+    .legend { font-size: 12px; font-weight: 500; fill: #6b7280; }
+    .footnote { font-size: 12px; font-weight: 500; fill: #94a3b8; }
+    .metric-label { font-size: 8.5px; font-weight: 700; fill: #94a3b8; text-transform: uppercase; }
+    .metric-value { font-size: 9.5px; font-weight: 700; fill: #111827; }
+    </style>
+  </defs>
+  <rect data-graph-role="background" width="960.0" height="752.0" fill="#ffffff"/>
+  <text x="480.0" y="56" text-anchor="middle" class="title">四个概念，四个层：不在一个擂台上</text>
+  <text x="480.0" y="82" text-anchor="middle" class="subtitle">从下往上：先会举手 → 再好接入 → 会协作 → 沉淀经验</text>
+  <g id="collab" data-graph-role="container" data-container-id="collab" data-semantic-role="boundary" data-graph-bounds="40,100,920,230">
+  <rect data-graph-role="container" x="40.0" y="100.0" width="880.0" height="130.0" rx="16.0" fill="none" stroke="#dbe5f1" stroke-width="1.4" stroke-dasharray="6 5"/>
+  <text x="58.0" y="124.0" class="section">协作层（横向）· 任务该交给谁 · GOOGLE 2025.4</text>
+    <rect id="collab-header" data-graph-role="reserved" data-reserved-kind="container-header" x="48" y="106" width="319.9" height="30" fill="none" stroke="none"/>
+  </g>
+  <g id="pack" data-graph-role="container" data-container-id="pack" data-semantic-role="boundary" data-graph-bounds="40,254,920,384">
+  <rect data-graph-role="container" x="40.0" y="254.0" width="880.0" height="130.0" rx="16.0" fill="none" stroke="#dbe5f1" stroke-width="1.4" stroke-dasharray="6 5"/>
+  <text x="58.0" y="278.0" class="section">打包层 · 这事该怎么办 · ANTHROPIC 2025.10</text>
+    <rect id="pack-header" data-graph-role="reserved" data-reserved-kind="container-header" x="48" y="260" width="299.36" height="30" fill="none" stroke="none"/>
+  </g>
+  <g id="connect" data-graph-role="container" data-container-id="connect" data-semantic-role="boundary" data-graph-bounds="40,408,920,538">
+  <rect data-graph-role="container" x="40.0" y="408.0" width="880.0" height="130.0" rx="16.0" fill="none" stroke="#dbe5f1" stroke-width="1.4" stroke-dasharray="6 5"/>
+  <text x="58.0" y="432.0" class="section">连接层（纵向）· 能连上什么 · ANTHROPIC 2024.11</text>
+    <rect id="connect-header" data-graph-role="reserved" data-reserved-kind="container-header" x="48" y="414" width="333.68" height="30" fill="none" stroke="none"/>
+  </g>
+  <g id="exec" data-graph-role="container" data-container-id="exec" data-semantic-role="boundary" data-graph-bounds="40,562,920,692">
+  <rect data-graph-role="container" x="40.0" y="562.0" width="880.0" height="130.0" rx="16.0" fill="none" stroke="#dbe5f1" stroke-width="1.4" stroke-dasharray="6 5"/>
+  <text x="58.0" y="586.0" class="section">执行层（原子）· 调用参数是什么 · OPENAI 2023.6</text>
+    <rect id="exec-header" data-graph-role="reserved" data-reserved-kind="container-header" x="48" y="568" width="329.52" height="30" fill="none" stroke="none"/>
+  </g>
+  <g id="node-a2a" data-graph-role="node" data-node-id="a2a" data-semantic-role="hexagon" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="90,134,330,196">
+  <path d="M 112.0 134.0 L 308.0 134.0 L 330.0 165.0 L 308.0 196.0 L 112.0 196.0 L 90.0 165.0 Z" fill="#eff6ff" stroke="#3b5bdb" stroke-width="2.0"/>
+  <text x="210.0" y="165.0" text-anchor="middle" class="node-title" font-size="18.0">A2A</text>
+  <text x="210.0" y="187.0" text-anchor="middle" class="node-sub">Agent ↔ Agent</text>
+  </g>
+  <g id="node-a2a-desc" data-graph-role="node" data-node-id="a2a-desc" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="470,134,830,196">
+  <rect x="470.0" y="134.0" width="360.0" height="62.0" rx="10.0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.8"/>
+  <text x="650.0" y="165.0" text-anchor="middle" class="node-title" font-size="18.0">Agent 间外交协议</text>
+  <text x="650.0" y="187.0" text-anchor="middle" class="node-sub">一个 Agent 扛不动 → 组队协作</text>
+  </g>
+  <g id="node-skill" data-graph-role="node" data-node-id="skill" data-semantic-role="note" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="90,288,330,350">
+  <rect x="90.0" y="288.0" width="240.0" height="62.0" rx="10.0" fill="#fff7ed" stroke="#c08a3a" stroke-width="2.0"/>
+  <text x="210.0" y="319.0" text-anchor="middle" class="node-title" font-size="18.0">Skill</text>
+  <text x="210.0" y="341.0" text-anchor="middle" class="node-sub">知识 ↔ 能力</text>
+  </g>
+  <g id="node-skill-desc" data-graph-role="node" data-node-id="skill-desc" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="470,288,830,350">
+  <rect x="470.0" y="288.0" width="360.0" height="62.0" rx="10.0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.8"/>
+  <text x="650.0" y="319.0" text-anchor="middle" class="node-title" font-size="18.0">能力的安装包</text>
+  <text x="650.0" y="341.0" text-anchor="middle" class="node-sub">连上了但不懂用 → 沉淀经验</text>
+  </g>
+  <g id="node-mcp" data-graph-role="node" data-node-id="mcp" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="90,442,330,504">
+  <rect x="90.0" y="442.0" width="240.0" height="62.0" rx="10.0" fill="#fce7ef" stroke="#c13a63" stroke-width="1.8"/>
+  <text x="210.0" y="473.0" text-anchor="middle" class="node-title" font-size="18.0">MCP</text>
+  <text x="210.0" y="495.0" text-anchor="middle" class="node-sub">Agent ↔ 工具</text>
+  </g>
+  <g id="node-mcp-desc" data-graph-role="node" data-node-id="mcp-desc" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="470,442,830,504">
+  <rect x="470.0" y="442.0" width="360.0" height="62.0" rx="10.0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.8"/>
+  <text x="650.0" y="473.0" text-anchor="middle" class="node-title" font-size="18.0">工具的 USB-C 接口</text>
+  <text x="650.0" y="495.0" text-anchor="middle" class="node-sub">接三十个工具的灾难 → 统一接入</text>
+  </g>
+  <g id="node-fc" data-graph-role="node" data-node-id="fc" data-semantic-role="double_rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="90,596,330,658">
+  <rect x="90.0" y="596.0" width="240.0" height="62.0" rx="10.0" fill="#fdeaf0" stroke="#7d1f3e" stroke-width="2.0"/>
+  <rect x="96.0" y="602.0" width="228.0" height="50.0" rx="7.0" fill="none" stroke="#7d1f3e" stroke-width="1.2" opacity="0.65"/>
+  <text x="210.0" y="627.0" text-anchor="middle" class="node-title" font-size="18.0">Function Calling</text>
+  <text x="210.0" y="649.0" text-anchor="middle" class="node-sub">模型 ↔ 函数</text>
+  </g>
+  <g id="node-fc-desc" data-graph-role="node" data-node-id="fc-desc" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="470,596,830,658">
+  <rect x="470.0" y="596.0" width="360.0" height="62.0" rx="10.0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.8"/>
+  <text x="650.0" y="627.0" text-anchor="middle" class="node-title" font-size="18.0">让模型输出结构化调用意图</text>
+  <text x="650.0" y="649.0" text-anchor="middle" class="node-sub">模型只举手，执行在你代码里</text>
+  </g>
+  <g id="footer" data-graph-role="reserved" data-graph-bounds="48,716,258,732">
+  <text x="48.0" y="728.0" class="footnote">Style 1 · Flat Icon · 四层能力协议演化</text>
+  </g>
+</svg>
