@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="960" height="620" data-generator="fireworks-tech-graph" data-schema-version="1" data-text-metrics="heuristic-v1" data-style-id="6" data-visual-theme="Claude Official" data-diagram-type="architecture" data-motion-scene="" data-semantic-profile="generic" data-semantic-valid="true" data-quality-profile="showcase" data-max-bends-per-edge="2" data-max-total-bends="8" data-max-route-stretch="1.35" data-max-bridged-crossings="0" data-min-node-gap="40.0" data-min-container-gutter="20.0" data-min-label-clearance="4.0" data-min-segment-length="16.0">
+  <defs>
+    <marker id="arrowA" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#d97757"/>
+    </marker>
+    <marker id="arrowB" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7b8b5c"/>
+    </marker>
+    <marker id="arrowC" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8c6f5a"/>
+    </marker>
+    <marker id="arrowE" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#b45309"/>
+    </marker>
+    <marker id="arrowF" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#9a6fb0"/>
+    </marker>
+    <marker id="arrowG" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7c5c96"/>
+    </marker>
+    <marker id="arrowH" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8f8a80"/>
+    </marker>
+    <style>
+    text { font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Microsoft YaHei', 'Microsoft JhengHei', 'SimHei', sans-serif; }
+    .title { font-size: 24px; font-weight: 700; fill: #141413; }
+    .subtitle { font-size: 13px; font-weight: 500; fill: #8f8a80; }
+    .section { font-size: 13px; font-weight: 700; fill: #8b7355; letter-spacing: 1.4px; }
+    .section-sub { font-size: 12px; font-weight: 500; fill: #b4aba0; }
+    .node-title { font-weight: 700; fill: #141413; }
+    .node-sub { font-size: 12px; font-weight: 500; fill: #6b6257; }
+    .node-type { font-size: 11px; font-weight: 700; fill: #a29a8f; letter-spacing: 0.08em; }
+    .arrow-label { font-size: 12px; font-weight: 600; fill: #6b6257; }
+    .legend { font-size: 12px; font-weight: 500; fill: #6b6257; }
+    .footnote { font-size: 12px; font-weight: 500; fill: #a29a8f; }
+    .metric-label { font-size: 8.5px; font-weight: 700; fill: #a29a8f; text-transform: uppercase; }
+    .metric-value { font-size: 9.5px; font-weight: 700; fill: #141413; }
+    </style>
+  </defs>
+  <rect data-graph-role="background" width="960.0" height="620.0" fill="#f8f6f3"/>
+  <text x="48.0" y="48" text-anchor="start" class="title">三层嵌套：一层套一层，不是互相替代</text>
+  <text x="48.0" y="72" text-anchor="start" class="subtitle">Harness 跑循环 · 循环每步装配 Context · Context 里装着 Prompt</text>
+  <line x1="48" y1="100" x2="912.0" y2="100" stroke="#ded8cf" stroke-width="1"/>
+  <g id="harness" data-graph-role="container" data-container-id="harness" data-semantic-role="boundary" data-graph-bounds="40,100,920,560">
+  <rect data-graph-role="container" x="40.0" y="100.0" width="880.0" height="460.0" rx="16.0" fill="#efe7db" stroke="#8a6d4a" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <text x="58.0" y="124.0" class="section">HARNESS 层（2026）· 模型运行其中的系统 · 工具执行 / 沙箱 / 重试 / 验证</text>
+    <rect id="harness-header" data-graph-role="reserved" data-reserved-kind="container-header" x="48" y="106" width="483.44" height="30" fill="none" stroke="none"/>
+  </g>
+  <g id="context" data-graph-role="container" data-container-id="context" data-semantic-role="boundary" data-graph-bounds="130,210,830,530">
+  <rect data-graph-role="container" x="130.0" y="210.0" width="700.0" height="320.0" rx="16.0" fill="#dbe7f2" stroke="#4a6d8a" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <text x="148.0" y="234.0" class="section">CONTEXT 层（2025）· 每次调用模型时看到什么 · RAG / 工具 / 记忆 / MCP</text>
+    <rect id="context-header" data-graph-role="reserved" data-reserved-kind="container-header" x="138" y="216" width="479.8" height="30" fill="none" stroke="none"/>
+  </g>
+  <g id="prompt" data-graph-role="container" data-container-id="prompt" data-semantic-role="boundary" data-graph-bounds="250,330,710,490">
+  <rect data-graph-role="container" x="250.0" y="330.0" width="460.0" height="160.0" rx="16.0" fill="#e7f0ea" stroke="#4a8a6d" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <text x="268.0" y="354.0" class="section">PROMPT 层（2023）· 这句话怎么说</text>
+    <rect id="prompt-header" data-graph-role="reserved" data-reserved-kind="container-header" x="258" y="336" width="242.42" height="30" fill="none" stroke="none"/>
+  </g>
+  <g id="node-core" data-graph-role="node" data-node-id="core" data-semantic-role="double_rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="330,384,630,456">
+  <rect x="330.0" y="384.0" width="300.0" height="72.0" rx="10.0" fill="#f4e4c1" stroke="#4a4a4a" stroke-width="2.0"/>
+  <rect x="336.0" y="390.0" width="288.0" height="60.0" rx="7.0" fill="none" stroke="#4a4a4a" stroke-width="1.2" opacity="0.65"/>
+  <text x="480.0" y="420.0" text-anchor="middle" class="node-title" font-size="18.0">角色 · 格式 · 约束 · 思维链</text>
+  <text x="480.0" y="442.0" text-anchor="middle" class="node-sub">优化单次输入 → 输出</text>
+  </g>
+  <g id="footer" data-graph-role="reserved" data-graph-bounds="48,584,328,600">
+  <text x="48.0" y="596.0" class="footnote">Style 6 · Claude Official · Agent 工程三层嵌套</text>
+  </g>
+</svg>

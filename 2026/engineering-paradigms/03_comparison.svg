@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560" data-generator="fireworks-tech-graph" data-schema-version="1" data-text-metrics="heuristic-v1" data-style-id="6" data-visual-theme="Claude Official" data-diagram-type="architecture" data-motion-scene="" data-semantic-profile="generic" data-semantic-valid="true" data-quality-profile="showcase" data-max-bends-per-edge="2" data-max-total-bends="8" data-max-route-stretch="1.35" data-max-bridged-crossings="0" data-min-node-gap="40.0" data-min-container-gutter="20.0" data-min-label-clearance="4.0" data-min-segment-length="16.0">
+  <defs>
+    <marker id="arrowA" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#d97757"/>
+    </marker>
+    <marker id="arrowB" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7b8b5c"/>
+    </marker>
+    <marker id="arrowC" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8c6f5a"/>
+    </marker>
+    <marker id="arrowE" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#b45309"/>
+    </marker>
+    <marker id="arrowF" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#9a6fb0"/>
+    </marker>
+    <marker id="arrowG" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7c5c96"/>
+    </marker>
+    <marker id="arrowH" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8f8a80"/>
+    </marker>
+    <style>
+    text { font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Microsoft YaHei', 'Microsoft JhengHei', 'SimHei', sans-serif; }
+    .title { font-size: 24px; font-weight: 700; fill: #141413; }
+    .subtitle { font-size: 13px; font-weight: 500; fill: #8f8a80; }
+    .section { font-size: 13px; font-weight: 700; fill: #8b7355; letter-spacing: 1.4px; }
+    .section-sub { font-size: 12px; font-weight: 500; fill: #b4aba0; }
+    .node-title { font-weight: 700; fill: #141413; }
+    .node-sub { font-size: 12px; font-weight: 500; fill: #6b6257; }
+    .node-type { font-size: 11px; font-weight: 700; fill: #a29a8f; letter-spacing: 0.08em; }
+    .arrow-label { font-size: 12px; font-weight: 600; fill: #6b6257; }
+    .legend { font-size: 12px; font-weight: 500; fill: #6b6257; }
+    .footnote { font-size: 12px; font-weight: 500; fill: #a29a8f; }
+    .metric-label { font-size: 8.5px; font-weight: 700; fill: #a29a8f; text-transform: uppercase; }
+    .metric-value { font-size: 9.5px; font-weight: 700; fill: #141413; }
+    </style>
+  </defs>
+  <rect data-graph-role="background" width="960.0" height="560.0" fill="#f8f6f3"/>
+  <text x="48.0" y="48" text-anchor="start" class="title">三层各管一段：说什么 / 看到什么 / 能做什么</text>
+  <text x="48.0" y="72" text-anchor="start" class="subtitle">定位问题出在哪一层，别在错误的层使劲</text>
+  <line x1="48" y1="100" x2="912.0" y2="100" stroke="#ded8cf" stroke-width="1"/>
+  <g id="p" data-graph-role="container" data-container-id="p" data-semantic-role="boundary" data-graph-bounds="40,100,320,500">
+  <rect data-graph-role="container" x="40.0" y="100.0" width="280.0" height="400.0" rx="16.0" fill="#f4e4c1" stroke="#8a6d4a" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <text x="58.0" y="124.0" class="section">PROMPT · 2023</text>
+    <rect id="p-header" data-graph-role="reserved" data-reserved-kind="container-header" x="48" y="106" width="125.42" height="30" fill="none" stroke="none"/>
+  </g>
+  <g id="c" data-graph-role="container" data-container-id="c" data-semantic-role="boundary" data-graph-bounds="340,100,620,500">
+  <rect data-graph-role="container" x="340.0" y="100.0" width="280.0" height="400.0" rx="16.0" fill="#d9ede9" stroke="#3f8a7d" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <text x="358.0" y="124.0" class="section">CONTEXT · 2025</text>
+    <rect id="c-header" data-graph-role="reserved" data-reserved-kind="container-header" x="348" y="106" width="129.84" height="30" fill="none" stroke="none"/>
+  </g>
+  <g id="h" data-graph-role="container" data-container-id="h" data-semantic-role="boundary" data-graph-bounds="640,100,920,500">
+  <rect data-graph-role="container" x="640.0" y="100.0" width="280.0" height="400.0" rx="16.0" fill="#dbe7f2" stroke="#4a6d8a" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <text x="658.0" y="124.0" class="section">HARNESS · 2026</text>
+    <rect id="h-header" data-graph-role="reserved" data-reserved-kind="container-header" x="648" y="106" width="129.84" height="30" fill="none" stroke="none"/>
+  </g>
+  <g id="node-p1" data-graph-role="node" data-node-id="p1" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="66,150,294,214">
+  <rect x="66.0" y="150.0" width="228.0" height="64.0" rx="10.0" fill="#f4e4c1" stroke="#4a4a4a" stroke-width="1.8"/>
+  <text x="180.0" y="182.0" text-anchor="middle" class="node-title" font-size="18.0">核心：这句话怎么说</text>
+  </g>
+  <g id="node-p2" data-graph-role="node" data-node-id="p2" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="66,254,294,318">
+  <rect x="66.0" y="254.0" width="228.0" height="64.0" rx="10.0" fill="#f0e2d0" stroke="#8a6d4a" stroke-width="1.8"/>
+  <text x="180.0" y="286.0" text-anchor="middle" class="node-title" font-size="18.0">失败：语义歧义</text>
+  </g>
+  <g id="node-p3" data-graph-role="node" data-node-id="p3" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="66,358,294,422">
+  <rect x="66.0" y="358.0" width="228.0" height="64.0" rx="10.0" fill="#eae7e2" stroke="#4a4a4a" stroke-width="1.8"/>
+  <text x="180.0" y="390.0" text-anchor="middle" class="node-title" font-size="18.0">角色：写作者</text>
+  </g>
+  <g id="node-c1" data-graph-role="node" data-node-id="c1" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="366,150,594,214">
+  <rect x="366.0" y="150.0" width="228.0" height="64.0" rx="10.0" fill="#cfe8e0" stroke="#4a4a4a" stroke-width="1.8"/>
+  <text x="480.0" y="182.0" text-anchor="middle" class="node-title" font-size="18.0">核心：模型看到什么</text>
+  </g>
+  <g id="node-c2" data-graph-role="node" data-node-id="c2" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="366,254,594,318">
+  <rect x="366.0" y="254.0" width="228.0" height="64.0" rx="10.0" fill="#f0e2d0" stroke="#8a6d4a" stroke-width="1.8"/>
+  <text x="480.0" y="286.0" text-anchor="middle" class="node-title" font-size="18.0">失败：信息过期 / 噪音</text>
+  </g>
+  <g id="node-c3" data-graph-role="node" data-node-id="c3" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="366,358,594,422">
+  <rect x="366.0" y="358.0" width="228.0" height="64.0" rx="10.0" fill="#eae7e2" stroke="#4a4a4a" stroke-width="1.8"/>
+  <text x="480.0" y="390.0" text-anchor="middle" class="node-title" font-size="18.0">角色：数据工程师</text>
+  </g>
+  <g id="node-h1" data-graph-role="node" data-node-id="h1" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="666,150,894,214">
+  <rect x="666.0" y="150.0" width="228.0" height="64.0" rx="10.0" fill="#cfe0f0" stroke="#4a4a4a" stroke-width="1.8"/>
+  <text x="780.0" y="182.0" text-anchor="middle" class="node-title" font-size="14.2">核心：能做什么 / 出错怎么办</text>
+  </g>
+  <g id="node-h2" data-graph-role="node" data-node-id="h2" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="666,254,894,318">
+  <rect x="666.0" y="254.0" width="228.0" height="64.0" rx="10.0" fill="#f0e2d0" stroke="#8a6d4a" stroke-width="1.8"/>
+  <text x="780.0" y="286.0" text-anchor="middle" class="node-title" font-size="16.71">失败：工具故障 / 死循环</text>
+  </g>
+  <g id="node-h3" data-graph-role="node" data-node-id="h3" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="666,358,894,422">
+  <rect x="666.0" y="358.0" width="228.0" height="64.0" rx="10.0" fill="#eae7e2" stroke="#4a4a4a" stroke-width="1.8"/>
+  <text x="780.0" y="390.0" text-anchor="middle" class="node-title" font-size="16.71">角色：平台 / 安全工程师</text>
+  </g>
+  <g id="footer" data-graph-role="reserved" data-graph-bounds="48,522,286,538">
+  <text x="48.0" y="534.0" class="footnote">Style 6 · Claude Official · 三层职责对照</text>
+  </g>
+</svg>

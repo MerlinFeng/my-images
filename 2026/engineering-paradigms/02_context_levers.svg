@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" width="960" height="460" data-generator="fireworks-tech-graph" data-schema-version="1" data-text-metrics="heuristic-v1" data-style-id="6" data-visual-theme="Claude Official" data-diagram-type="architecture" data-motion-scene="" data-semantic-profile="generic" data-semantic-valid="true" data-quality-profile="showcase" data-max-bends-per-edge="2" data-max-total-bends="8" data-max-route-stretch="1.35" data-max-bridged-crossings="0" data-min-node-gap="40.0" data-min-container-gutter="20.0" data-min-label-clearance="4.0" data-min-segment-length="16.0">
+  <defs>
+    <marker id="arrowA" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#d97757"/>
+    </marker>
+    <marker id="arrowB" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7b8b5c"/>
+    </marker>
+    <marker id="arrowC" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8c6f5a"/>
+    </marker>
+    <marker id="arrowE" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#b45309"/>
+    </marker>
+    <marker id="arrowF" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#9a6fb0"/>
+    </marker>
+    <marker id="arrowG" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7c5c96"/>
+    </marker>
+    <marker id="arrowH" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8f8a80"/>
+    </marker>
+    <style>
+    text { font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Microsoft YaHei', 'Microsoft JhengHei', 'SimHei', sans-serif; }
+    .title { font-size: 24px; font-weight: 700; fill: #141413; }
+    .subtitle { font-size: 13px; font-weight: 500; fill: #8f8a80; }
+    .section { font-size: 13px; font-weight: 700; fill: #8b7355; letter-spacing: 1.4px; }
+    .section-sub { font-size: 12px; font-weight: 500; fill: #b4aba0; }
+    .node-title { font-weight: 700; fill: #141413; }
+    .node-sub { font-size: 12px; font-weight: 500; fill: #6b6257; }
+    .node-type { font-size: 11px; font-weight: 700; fill: #a29a8f; letter-spacing: 0.08em; }
+    .arrow-label { font-size: 12px; font-weight: 600; fill: #6b6257; }
+    .legend { font-size: 12px; font-weight: 500; fill: #6b6257; }
+    .footnote { font-size: 12px; font-weight: 500; fill: #a29a8f; }
+    .metric-label { font-size: 8.5px; font-weight: 700; fill: #a29a8f; text-transform: uppercase; }
+    .metric-value { font-size: 9.5px; font-weight: 700; fill: #141413; }
+    </style>
+  </defs>
+  <rect data-graph-role="background" width="960.0" height="460.0" fill="#f8f6f3"/>
+  <text x="48.0" y="48" text-anchor="start" class="title">Context 层要解决的三件事</text>
+  <text x="48.0" y="72" text-anchor="start" class="subtitle">把上下文窗口填对，比写好那句提问更难</text>
+  <line x1="48" y1="100" x2="912.0" y2="100" stroke="#ded8cf" stroke-width="1"/>
+  <path id="a1" data-graph-role="edge" data-edge-id="a1" data-source="center" data-target="rag" data-edge-kind="flow" data-topic-id="" data-flow="data" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="2" data-route-stretch="1.0" data-bridges="" d="M 462,168 L 462,188.4 L 170,188.4 L 170,290" fill="none" stroke="#b45309" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowE)"/>
+  <path id="a2" data-graph-role="edge" data-edge-id="a2" data-source="center" data-target="tools" data-edge-kind="flow" data-topic-id="" data-flow="data" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="0" data-route-stretch="1.0" data-bridges="" d="M 480,168 L 480,290" fill="none" stroke="#b45309" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowE)"/>
+  <path id="a3" data-graph-role="edge" data-edge-id="a3" data-source="center" data-target="memory" data-edge-kind="flow" data-topic-id="" data-flow="data" data-motion-role="" data-motion-stage="" data-motion-order="" data-protocol="" data-via="" data-critical-path-id="" data-critical-hop="" data-critical-hops="" data-critical="false" data-bends="2" data-route-stretch="1.0" data-bridges="" d="M 498,168 L 498,188.4 L 790,188.4 L 790,290" fill="none" stroke="#b45309" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowE)"/>
+  <g id="node-center" data-graph-role="node" data-node-id="center" data-semantic-role="double_rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="360,96,600,168">
+  <rect x="360.0" y="96.0" width="240.0" height="72.0" rx="10.0" fill="#dbe7f2" stroke="#4a4a4a" stroke-width="2.0"/>
+  <rect x="366.0" y="102.0" width="228.0" height="60.0" rx="7.0" fill="none" stroke="#4a4a4a" stroke-width="1.2" opacity="0.65"/>
+  <text x="480.0" y="132.0" text-anchor="middle" class="node-title" font-size="18.0">上下文窗口</text>
+  <text x="480.0" y="154.0" text-anchor="middle" class="node-sub">模型每次决策能看到的全部</text>
+  </g>
+  <g id="node-rag" data-graph-role="node" data-node-id="rag" data-semantic-role="cylinder" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="40,290,300,386">
+  <ellipse cx="170.0" cy="302.0" rx="65.0" ry="12.0" fill="#d9ede9" stroke="#4a4a4a" stroke-width="2.2"/>
+  <rect x="40.0" y="302.0" width="260.0" height="72.0" fill="#d9ede9" stroke="#4a4a4a" stroke-width="2.2"/>
+  <ellipse cx="170.0" cy="374.0" rx="65.0" ry="12.0" fill="#d9ede9" stroke="#4a4a4a" stroke-width="2.2"/>
+  <ellipse cx="170.0" cy="326.48" rx="65.0" ry="12.0" fill="none" stroke="#4a4a4a" stroke-opacity="0.45" stroke-width="1.2"/>
+  <ellipse cx="170.0" cy="347.6" rx="65.0" ry="12.0" fill="none" stroke="#4a4a4a" stroke-opacity="0.25" stroke-width="1.2"/>
+  <text x="170.0" y="332.0" text-anchor="middle" class="node-title" font-size="18.0">知识（RAG）</text>
+  <text x="170.0" y="356.0" text-anchor="middle" class="node-sub">检索最相关片段注入 · 别硬套调试场景</text>
+  </g>
+  <g id="node-tools" data-graph-role="node" data-node-id="tools" data-semantic-role="note" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="350,290,610,386">
+  <rect x="350.0" y="290.0" width="260.0" height="96.0" rx="10.0" fill="#f4e4c1" stroke="#4a4a4a" stroke-width="2.0"/>
+  <text x="480.0" y="338.0" text-anchor="middle" class="node-title" font-size="18.0">工具</text>
+  <text x="480.0" y="360.0" text-anchor="middle" class="node-sub">小而可组合 · 越多越快进降智区</text>
+  </g>
+  <g id="node-memory" data-graph-role="node" data-node-id="memory" data-semantic-role="rect" data-motion-role="" data-motion-stage="" data-motion-order="" data-parent="" data-deployment-id="" data-topic-id="" data-span-id="" data-station-order="" data-status="" data-start-ms="" data-duration-ms="" data-parent-span="" data-graph-bounds="660,290,920,386">
+  <rect x="660.0" y="290.0" width="260.0" height="96.0" rx="10.0" fill="#dbe7f2" stroke="#4a4a4a" stroke-width="1.8"/>
+  <text x="790.0" y="338.0" text-anchor="middle" class="node-title" font-size="18.0">记忆</text>
+  <text x="790.0" y="360.0" text-anchor="middle" class="node-sub">对抗冷启动 · 留 / 压缩 / 卸载 / 检索</text>
+  </g>
+  <g id="footer" data-graph-role="reserved" data-graph-bounds="48,420,405,436">
+  <text x="48.0" y="432.0" class="footnote">Style 6 · Claude Official · Context Engineering 三支柱</text>
+  </g>
+</svg>
